@@ -28,6 +28,8 @@ export const sendMessage = async (req, res) => {
         conversation.messages.push(newMessage._id);
     }
 
+    // Todo : SOKET.IO
+
     // await conversation.save();
     // await newMessage.save();
     // This will run in parallel
