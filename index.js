@@ -1,6 +1,6 @@
 import express from 'express';
 import dotenv from 'dotenv'
-const app = express()
+import { app } from './socket/socket.js';
 import cookieParser from 'cookie-parser'
 dotenv.config()
 const port = process.env.PORT ||5000
